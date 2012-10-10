@@ -1,0 +1,22 @@
+{
+	"auto_upgrade_last_run": 1349891757,
+	"installed_packages":
+	[
+		"Backbone.js",
+		"BeautifyRuby",
+		"CoffeeScript",
+		"Handlebars",
+		"HTML5",
+		"jQuery Snippets pack",
+		"Nodejs",
+		"Package Control",
+		"RSpec",
+		"RubyTest",
+		"Sass",
+		"SplitScreen-Resizer",
+		"sublime-split-navigation",
+		"Theme - Soda"
+	],
+	"ruby_rspec_exec": "bundle exec rspec",
+	"ruby_unit_exec": "bundle exec ruby"
+}

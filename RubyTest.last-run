@@ -1,0 +1,5 @@
+{
+	"last_test_file": "admin_moderates_questions_spec.rb",
+	"last_test_run": "rspec spec/requests/propose_question_spec.rb -l26",
+	"last_test_working_dir": "/Users/mhickman84/dev/coshx/evs-web"
+}

@@ -1,0 +1,49 @@
+[
+  { "keys": ["super+w"], "command": "close" },
+  { "keys": ["super+shift+w"], "command": "expand_selection", "args": {"to": "scope"} },
+  { "keys": ["super+alt+v"], "command": "paste_and_indent" },
+  { "keys": ["super+alt+;"], "command": "focus_side_bar" },
+  {
+    "keys": ["super+shift+c"],
+    "command": "copy_path_to_clipboard"
+  },
+  {
+    "keys": ["super+shift+v"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["super+shift+h"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+    }
+  },
+  {
+    "keys": ["super+shift+g"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },
+
+  // Text Surround
+  { "keys": ["ctrl+shift+a"], "command": "add_surround" },
+  { "keys": ["ctrl+shift+d"], "command": "delete_surround" },
+  { "keys": ["ctrl+shift+r"], "command": "replace_surround" }
+]
